@@ -106,8 +106,9 @@ router.drop('/:id', jwt({ secret }), async function (req, res, next) {
 })
 
 /* Update player */
-router.update('/:id', jwt({ secret }), async function (req, res, next) {
+router.put('/:id', jwt({ secret }), async function (req, res, next) {
   let players = null
+  /* están quemados los datos para facilitar la prueba */
   const name = 'Santiago'
   const ranking = 1
   const pais = 'Colombia'
