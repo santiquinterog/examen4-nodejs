@@ -10,7 +10,7 @@ It was creates with express-generator
 
 ```
 npm install express-generator -g
-express --no-view dwa-comments
+express --no-view dwa-players
 ```
 
 ### 
